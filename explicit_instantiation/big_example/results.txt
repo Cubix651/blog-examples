@@ -1,0 +1,143 @@
+
+./run.sh g++-9 100 100
+
+###### optimized_2 ######
+
+Compilation
+
+real	0m7.779s
+user	0m4.311s
+sys	0m2.566s
+
+Run
+-68326500
+
+real	0m0.215s
+user	0m0.003s
+sys	0m0.004s
+
+###### optimized ######
+
+Compilation
+
+real	0m8.175s
+user	0m4.899s
+sys	0m2.421s
+
+Run
+-68326500
+
+real	0m0.103s
+user	0m0.002s
+sys	0m0.004s
+
+###### unoptimized ######
+
+Compilation
+
+real	0m12.822s
+user	0m9.364s
+sys	0m2.570s
+
+Run
+-68326500
+
+real	0m0.242s
+user	0m0.001s
+sys	0m0.002s
+
+
+---------------------------------------------------------------
+./run.sh clang++ 100 100
+
+###### optimized_2 ######
+
+Compilation
+
+real	0m11.986s
+user	0m10.750s
+sys	0m0.748s
+
+Run
+-68326500
+
+real	0m0.206s
+user	0m0.002s
+sys	0m0.003s
+
+###### optimized ######
+
+Compilation
+
+real	6m35.060s
+user	6m27.468s
+sys	0m1.509s
+
+Run
+-68326500
+
+real	0m0.404s
+user	0m0.001s
+sys	0m0.002s
+
+###### unoptimized ######
+
+Compilation
+
+real	12m35.065s
+user	12m31.635s
+sys	0m1.814s
+
+Run
+-68326500
+
+real	0m0.412s
+user	0m0.001s
+sys	0m0.002s
+---------------------------------------------------------------------------------------
+./run.sh g++-9 400 400
+
+###### optimized_2 ######
+
+Compilation
+
+real	0m44.851s
+user	0m30.155s
+sys	0m10.396s
+
+Run
+-1085106000
+
+real	0m0.451s
+user	0m0.004s
+sys	0m0.004s
+
+###### optimized ######
+
+Compilation
+
+real	1m0.017s
+user	0m45.167s
+sys	0m10.725s
+
+Run
+-1085106000
+
+real	0m0.316s
+user	0m0.003s
+sys	0m0.003s
+
+###### unoptimized ######
+
+Compilation
+
+real	2m34.874s
+user	2m7.236s
+sys	0m14.980s
+
+Run
+-1085106000
+
+real	0m0.458s
+user	0m0.003s
+sys	0m0.003s
